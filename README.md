@@ -19,13 +19,9 @@
     | 参数     | 说明     |
     | ------- | ------- |
     | eeg_callback   | EEG数据回调函数，参数为BrainLinkData对象，默认为None |
-    | ------- | ------- |
     | eeg_extend_callback   | EEG扩展数据回调函数，参数为BrainLinkExtendData，默认为None |
-    | ------- | ------- |
     | gyro_callback   | 陀螺仪数据回调函数，参数为整型x，y，z，默认为None |
-    | ------- | ------- |
     | rr_callback   | 心跳RR数据回调函数，参数为整型rr1, rr2, rr3，默认为None |
-    | ------- | ------- |
     | raw_callback   | 原始数据回调函数，参数为整型raw，默认为None |
 
 - **parse(byteData)** 解析数据
