@@ -63,13 +63,13 @@
 
 - version
 
-- gnaw 咬牙
+- gnaw
 
 - temperature
 
 - heart
 
-## 代码参考
+## Sample code provided for development reference
 
 ```
 import time
@@ -127,10 +127,9 @@ finally:
 ```
 
 
-# 在TouchDesigner中使用
+# Use in TouchDesigner
 
-- Macos：把BrainLinkParser.so放到/Applications/TouchDesigner.app/Contents/MacOS/Lib，可在TouchDesigner中直接使用模块
-
-- Windows: 把BrainLinkParser.pyd放到C:\Program Files\Derivative\TouchDesigner\bin\Lib目录下，可在TouchDesigner中使用
+- Macos：Place the BrainLinkParser.so file into the directory `/Applications/TouchDesigner.app/Contents/MacOS/Lib`, so that the module can be used directly within TouchDesigner
+- Windows system: Place the BrainLinkParser.pyd file into the directory `C:\Program Files\Derivative\TouchDesigner\bin\Lib` to use it in TouchDesigner
 
 ![TD](https://github.com/Macrotellect/BrainLinkParser-Python/blob/main/TD.png)
