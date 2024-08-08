@@ -133,3 +133,16 @@ finally:
 - Windows system: Place the BrainLinkParser.pyd file into the directory `C:\Program Files\Derivative\TouchDesigner\bin\Lib` to use it in TouchDesigner
 
 ![TD](https://github.com/Macrotellect/BrainLinkParser-Python/blob/main/TD.png)
+
+# FAQ
+
+## 1.Don't know which COM port to choose for connection in Windows system?
+After the computer's Bluetooth searches for the BrainLink Bluetooth device, pair it. The computer will generate two virtual Bluetooth COM ports. When opening TouchDesigner, you don't know which COM port to choose for connection?
+
+The correct answer is to select the output COM port for connection. So, how can you distinguish which COM port is for input and which is for output? You can go to the computer's Bluetooth settings interface, select more Bluetooth options, and then click on the COM port to see which one is the output port.
+
+Translated into English:
+
+After the computer's Bluetooth locates the BrainLink Bluetooth device, proceed with the pairing. The computer will create two virtual Bluetooth COM ports. When you open TouchDesigner, you might be unsure which COM port to select for the connection.
+
+The correct approach is to choose the output COM port for the connection. How can you identify which COM port is for input and which is for output? Navigate to your computer's Bluetooth settings, select additional Bluetooth options, and then click on the COM ports to see which one is designated as the output port.
