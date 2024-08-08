@@ -3,7 +3,7 @@
 ## Python Version
 
 - Python 3.11. You need to have a BrainLink brainwave detection device to use the following code.
-- Buy from this website: https://www.macrotellect.com/web/
+- Buy from our website: https://o.macrotellect.com/index.html#v1
 
 ## SDK
 
