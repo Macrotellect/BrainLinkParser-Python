@@ -138,7 +138,7 @@ finally:
 
 ## 1.Don't know which COM port to choose for connection in Windows system?
 
-video tutorial in this url https://youtu.be/ENkKVI4Av3k
+### video tutorial in this url https://youtu.be/ENkKVI4Av3k
 After the computer's Bluetooth searches for the BrainLink Bluetooth device, pair it. The computer will generate two virtual Bluetooth COM ports. When opening TouchDesigner, you don't know which COM port to choose for connection?
 
 The correct answer is to select the output COM port for connection. So, how can you distinguish which COM port is for input and which is for output? You can go to the computer's Bluetooth settings interface, select more Bluetooth options, and then click on the COM port to see which one is the output port.
