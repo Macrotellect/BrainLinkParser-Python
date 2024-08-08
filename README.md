@@ -1,6 +1,6 @@
 # BrainLinkParser-Python
 
-## 环境说明
+## Python Version
 
 - Python 3.11
 
@@ -9,27 +9,27 @@
 - Windows: BrainLinkParser.pyd
 - Macos: BrainLinkParser.so
 
-## 引入模块
+## Import
 
 - from BrainLinkParser import BrainLinkParser
 
-## 接口列表
+## Interface Parameters and Return Values
 
-- **BrainLinkParser(eeg_callback(BrainLinkData)=None, eeg_extend_callback(BrainLinkExtendData)=None, gyro_callback(int, int, int)=None, rr_callback(int, int, int)=None, raw_callback(int)=None)** 构造函数
+- **BrainLinkParser(eeg_callback(BrainLinkData)=None, eeg_extend_callback(BrainLinkExtendData)=None, gyro_callback(int, int, int)=None, rr_callback(int, int, int)=None, raw_callback(int)=None)** Constructor
 
-    | 参数     | 说明     |
+    | Parameters     | Description     |
     | ------- | ------- |
-    | eeg_callback   | EEG数据回调函数，参数为BrainLinkData对象，默认为None |
-    | eeg_extend_callback   | EEG扩展数据回调函数，参数为BrainLinkExtendData，默认为None |
-    | gyro_callback   | 陀螺仪数据回调函数，参数为整型x，y，z，默认为None |
-    | rr_callback   | 心跳RR数据回调函数，参数为整型rr1, rr2, rr3，默认为None |
-    | raw_callback   | 原始数据回调函数，参数为整型raw，默认为None |
+    | eeg_callback   | EEG Data Callback Function, parameter is an object of BrainLinkData, default is None. |
+    | eeg_extend_callback   | EEG Extended Data Callback Function, parameter is an object of BrainLinkExtendData, with a default value of None. |
+    | gyro_callback   | Gyroscope Data Callback Function, parameters are integer values for x, y, z, with a default value of None. |
+    | rr_callback   | Heartbeat RR Data Callback Function, parameters are integer values for rr1, rr2, rr3, with a default value of None. |
+    | raw_callback   | Raw Data Callback Function, parameter is an integer type for 'raw', with a default value of None. |
 
-- **parse(byteData)** 解析数据
+- **parse(byteData)** Parse Data
 
-    | 参数     | 说明     |
+    | Parameters     | Description     |
     | ------- | ------- |
-    | byteData   | 参数为bytes |
+    | byteData   | Parameter is of type 'bytes' |
 
 ## BrainLinkData类说明
 
