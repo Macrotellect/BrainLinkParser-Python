@@ -31,13 +31,13 @@
     | ------- | ------- |
     | byteData   | Parameter is of type 'bytes' |
 
-## BrainLinkData类说明
+## BrainLinkData Explanation
 
-- signal 设备佩戴质量，当值为200设备未佩戴，当值为0表示已经戴好
+- signal
 
-- attention 专注度
+- attention
 
-- meditation 放松度
+- meditation
 
 - delta
 
@@ -55,19 +55,19 @@
 
 - highGamma
 
-## BrainLinkExtendData类说明
+## BrainLinkExtendData Explanation
 
-- ap 喜好度
+- ap
 
-- battery 电量
+- battery
 
-- version 硬件固件版本
+- version
 
 - gnaw 咬牙
 
-- temperature 额头温度
+- temperature
 
-- heart 心率
+- heart
 
 ## 代码参考
 
