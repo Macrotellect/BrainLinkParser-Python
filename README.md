@@ -1,3 +1,6 @@
+![Pro_girl](https://github.com/user-attachments/assets/5d5a1047-63f5-4135-87d2-fa34a8e66f19)
+
+![data_stream](https://github.com/user-attachments/assets/7479371b-65a9-4000-9aa0-31282bdc5934)
 # BrainLinkParser-Python
 
 ## Python Version
