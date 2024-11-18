@@ -79,8 +79,7 @@
 ## Sample code provided for development reference
 
 ```
-import time
-import serial
+from cushy_serial import CushySerial
 from BrainLinkParser import BrainLinkParser
 
 def onRaw(raw):
@@ -119,18 +118,12 @@ def onRR(rr1, rr2, rr3):
 
 parser = BrainLinkParser(onEEG, onExtendEEG, onGyro, onRR, onRaw)
 
-ser = serial.Serial('/dev/cu.BrainLink_Pro', 115200)
-try:
-    while True:
+serial = CushySerial('/dev/cu.BrainLink_Pro', 115200)
 
-        data = ser.read(512)
-
-        parser.parse(data)
-
-        time.sleep(0.1)
-
-finally:
-    ser.close()
+@serial.on_message()
+def handle_serial_message(msg: bytes):
+    parser.parse(msg)
+    # print(f"[serial] rec msg: {msg}")
 ```
 
 
