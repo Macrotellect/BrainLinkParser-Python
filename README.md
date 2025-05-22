@@ -139,7 +139,7 @@ def handle_serial_message(msg: bytes):
 ## 1.Don't know which COM port to choose for connection in Windows system?
 
 ### video tutorial in this url https://youtu.be/ENkKVI4Av3k
-After the computer's Bluetooth searches for the BrainLink Bluetooth device, pair it. The Bluetooth interface of the computer may display two BrainLink Pro device names. When pairing, please select the one with the headphone pattern in front of the device name.
+After the computer's Bluetooth searches for the BrainLink Bluetooth device, pair it. The Bluetooth interface of the computer may display two BrainLink Pro device names. When pairing, please select the one with **the headphone pattern** in front of the device name.
 ![chooseQQ20250522-134407](https://github.com/user-attachments/assets/ae5eecde-387c-4bc5-92fe-d1136d14002f)
 
 The computer will generate two virtual Bluetooth COM ports. When opening TouchDesigner, you don't know which COM port to choose for connection?
