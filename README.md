@@ -129,8 +129,12 @@ def handle_serial_message(msg: bytes):
 
 # Use in TouchDesigner
 
-- Macos：Place the BrainLinkParser.so file into the directory `/Applications/TouchDesigner.app/Contents/MacOS/Lib`, so that the module can be used directly within TouchDesigner
-- Windows system: Place the BrainLinkParser.pyd file into the directory `C:\Program Files\Derivative\TouchDesigner\bin\Lib` to use it in TouchDesigner
+1. Open Edit -> Preferences.
+2. Go to the General tab.
+3. Enter the folder path containing your `.so` or `.pyd` files into the Python 64-bit Module Path field.
+4. Restart TouchDesigner.
+
+![Preferences](https://github.com/Macrotellect/BrainLinkParser-Python/blob/main/Preferences.png)
 
 ![TD](https://github.com/Macrotellect/BrainLinkParser-Python/blob/main/TD.png)
 
